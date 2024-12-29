@@ -4,11 +4,87 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Audi R8</title>
-        <link rel="stylesheet" href="styel.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-        <nav class="navbar"></nav>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="http://www.audi.com/"><img src="Audi-Logo.png"></a>
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <i class="ri-menu-4-fill"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Cars</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">Inventory</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero-section">
+            <div class="social-links" data-aos="zoom-in">
+                <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                <a href=""><i class="ri-github-fill"></i></a>
+                <a href=""><i class="ri-pass-pending-line"></i></a>
+                <a href=""><i class="ri-gallery-fill"></i></a>
+            </div>
 
-     <script src="scripts.js"></script>   
-    </body>
+            <div class="content">
+                <h4 data-aos="fade-right">R8</h4>
+                <h1 data-aos="flip-left">Audi</h1>
+                <img src="R8-side.png" data-aos="fade-left">
+                <a href="https://www.audiusa.com/en/models/r8/r8-heritage/2024/overview/"><button data-aos="fade-up">
+                    BUY</button></a>
+            </div>
+
+            <div class="slide-numbers" data-aos="zoom-in">
+                <span>1st</span>
+                <span>2nd</span>
+            </div>
+        </section>
+        <section class="lp-2">
+            <div class="secondimage">
+                <img src="R8-racing.jpg" data-aos="fade-up">
+            </div>
+            <div class="si-words">
+            <h2 data-aos="fade-up">Meet the Car of Your Dreams</h2>
+            </div>
+            <div class="container">
+                <div class="a1-container">
+                    <img src="Audi R8 V10.png" class="a1">
+                    <div class="a1-wodrsdiv"><p class="a1-words">2020 Audi R8 V10 5.2 Performancxe</p></div>
+                   <div class="a1-pdiv"><p class="a1-p">The all new 2020 Audi R8 V10 5.2 Performance is a booster speed vehicle. It has 4 seperate V10 Quattro engines and an ultrabost gas mielage.</p></div> 
+                </div>
+                <div class="a1-container">
+                    <img src="2020-Audi-R8-52-quattro-V10-performance-1671661634.jpg" class="a2">
+                    <p class="a2-words">2020 Audi R8 V10 5.2 Performance</p>
+                    <p class="a2-p">2020 Audi R8 V10 5.2 Performancxe</p>
+                </div>
+                <div class="a1-container">
+                    <img src="Screenshot 2024-12-28 at 5.53.27 PM.png" class="a1">
+                    <p class="a1-words">2020 Audi R8 V10 5.2 Performancxe</p>
+                    <p class="a1-p">2020 Audi R8 V10 5.2 Performancxe</p>
+                </div>
+                <div>
+                    <img src="IMG_0009.jpeg" class="a2">
+                    <p class="a2-words">2020 Audi R8 V10 5.2 Performancxe</p>
+                    <p class="a2-p">2020 Audi R8 V10 5.2 Performancxe</p>
+                </div>
+            </div>
+        </section>
+
+    <script src="scripts.js"></script> 
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1000,
+          easing: 'ease-in-out',
+          once: true,
+      });
+    </script>  
+</body>
 </html>
